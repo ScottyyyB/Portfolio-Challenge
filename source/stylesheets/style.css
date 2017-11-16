@@ -1,0 +1,192 @@
+#navbarNav {
+  border-bottom: 4px solid #12a6f6;
+  padding-bottom: 5px;
+}
+
+.nav-item:hover {
+  font-size: 20px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding-right: 5px;
+  letter-spacing: 0.8px;
+}
+
+.header-text {
+  margin: auto;
+  width: 40%;
+}
+
+.header-text h1 {
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+  font-size: 58px;
+}
+
+.header-text h2 {
+  margin: auto;
+  width: 68%;
+  font-family: "Oswald", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  border-bottom: 4px solid lightgray;
+}
+
+.header-image {
+  border-bottom: 4px solid lightgray;
+  width: 28%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.header-image img {
+  border: 3px solid #12a6f6;
+}
+
+.header-contacts {
+  margin: 22px auto;
+  width: 28%;
+  display: flex;
+  text-align: center;
+}
+
+.prop {
+  margin: 5px auto;
+}
+
+.prop img {
+  width: 55px;
+  border-radius: 100%;
+}
+
+.prop img:hover {
+  width: 60px;
+  background-color: white;
+}
+
+.prop h4 {
+  font-family: 'Oswald', sans-serif;
+  padding-top: 10px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.main {
+  margin-bottom: 60px;
+}
+
+.main-header {
+  padding: 25px 0;
+  width: 100%;
+  border-top: 4px solid lightgray;
+  border-bottom: 4px solid lightgray;
+  margin: 55px auto;
+}
+
+.main-header h2 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-prop {
+  width: 40%;
+  margin: auto;
+  flex: wrap;
+}
+
+.projects a {
+  text-decoration: none !important;
+}
+
+.main-prop a {
+  width: 10%;
+}
+
+.main-prop h3 {
+  margin: auto;
+  width: 30%;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.main-prop h3:hover {
+  cursor: pointer;
+}
+
+#carouselExampleControls {
+  border: 6px solid lightgray;
+}
+
+.carousel-item button {
+  border: 2px solid orange;
+}
+
+.carousel-item h5 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  background-color: #12a6f6;
+}
+
+.carousel-item img {
+  padding-top: 0px;
+  height: 400px;
+}
+
+.carousel-item a {
+  width: 100%;
+  border: 3px solid orange;
+}
+
+.carousel-item button {
+  letter-spacing: 1px;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  background-color: #12a6f6;
+  color: white;
+  width: 25%;
+  padding: 5px;
+  border: 2.5px solid orange;
+}
+
+.carousel-item button:hover {
+  cursor: pointer;
+}
+
+/*.carousel-item h6:hover {
+  text-decoration: none;
+  color: white;
+}*/
+#img1 {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 4px solid lightgray;
+  height: 150px;
+}
+
+#img2 {
+  margin-bottom: 60px;
+  border: 4px solid lightgray;
+  height: 100px;
+}
+
+#img3 {
+  margin-right: 40px;
+  height: 120px;
+  border: 4px solid lightgray;
+}
+
+#img4 {
+  height: 160px;
+  border: 4px solid lightgray;
+}

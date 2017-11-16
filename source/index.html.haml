@@ -2,27 +2,80 @@
 %html
   %head
   %title Scott Bartels
-  %link(href="#" text="text/css" rel="stylesheet")
+  %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous")
+  %link(href="style.css" text="text/css" rel="stylesheet")
+  %link(href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet")
+  %link(href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet")
+  %link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+  %link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
+  %link(href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet")
+
+
   %body
     .header
-      .header-text
-        %h1 Scotts' Portfolio
-        %h2 The Man Himself
-      .header-image
-        %img(src="#")
+      .header-text.text-center.mt-5
+        %h1.letter-spacing-2 Scott's Portfolio
+        %h2.mt-5 The Man Himself
+      .header-image.mt-5
+        %img.img-thumbnail.rounded-circle.rounded.mx-auto.d-block(src="http://www.mommyq.com/wp-content/uploads/stewie-300x279.jpg")
       .header-contacts
-        %img(src="#")
-        %img(src="#")
-        %img(src="#")
-    .main
+        .prop
+          %a(href="https://github.com/ScottyyyB")
+            %img(src="https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67" )
+          %h4 Git Hub
+        .prop
+          %a(href="https://www.linkedin.com/")
+            %img(src="https://upload.wikimedia.org/wikipedia/commons/a/a9/LinkE.png")
+          %h4 Linkedin
+        .prop
+          %a(href="https://stackoverflow.com/")
+            %img(src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png")
+          %h4 Overflow
+    .main.text-center
       .main-header
         %h2 Coding Arsenal
       .main-content
-        .main-prop
+        .main-prop.projects
           %h3 Projects
+          #carouselExampleControls.carousel.slide{"data-ride" => "carousel"}
+            .carousel-inner
+              .carousel-item.active
+                %h5 ATM Challenge
+                %img.d-block.w-100{:alt => "First slide", :src => "https://cdn.dribbble.com/users/1299339/screenshots/3076212/atm_d.gif"}/
+                %a(href="https://github.com/ScottyyyB/ATM-Challenge")
+                  %button(type="button") View Project
+              .carousel-item
+                %h5 Library Challenge
+                %img.d-block.w-100{:alt => "Second slide", :src => "https://cdn.dribbble.com/users/154752/screenshots/1244719/book.gif"}/
+                %a(href="https://github.com/ScottyyyB/library-challenge")
+                  %button(type="button") View Project
+              .carousel-item
+                %h5 BMI Challenge
+                %img.d-block.w-100{:alt => "Third slide", :src => "https://cdn.dribbble.com/users/409459/screenshots/1647461/calculatorrender.gif"}/
+                %a(href="https://github.com/ScottyyyB/BMI-Challenge")
+                  %button(type="button") View Project
+              .carousel-item
+                %h5 Cooper Challenge
+                %img.d-block.w-100{:alt => "Four slide", :src => "https://cdn.dribbble.com/users/291221/screenshots/1618460/hipster_runner.gif"}/
+                %a(href="https://github.com/ScottyyyB/Cooper-Challenge")
+                  %button(type="button") View Project
+            %a.carousel-control-prev{"data-slide" => "prev", :href => "#carouselExampleControls", :role => "button"}
+              %span.carousel-control-prev-icon{"aria-hidden" => "true"}
+              %span.sr-only Previous
+            %a.carousel-control-next{"data-slide" => "next", :href => "#carouselExampleControls", :role => "button"}
+              %span.carousel-control-next-icon{"aria-hidden" => "true"}
+              %span.sr-only Next
+
+
         .main-prop
           %h3 About
-        .main-prop
-          %h3 Contacts
+          .about-image
+            %img#img1(src="https://qph.ec.quoracdn.net/main-qimg-5ce6415cd47a8a5238fc98a3341a3f30")
+            %img#img2(src="https://media.giphy.com/media/6rqzYy39zOKoU/giphy.gif")
+            %img#img3(src="https://cdn.dribbble.com/users/31664/screenshots/1309778/football_player.gif")
+            %img#img4(src="https://media.giphy.com/media/yU0vrGBTI6TKg/source.gif")
+            %img#img5(src="#")
+
     .footer
       .footer-content
+        %h4 @17sb@cis.dk

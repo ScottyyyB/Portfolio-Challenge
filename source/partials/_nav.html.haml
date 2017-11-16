@@ -1,5 +1,17 @@
-.nav
-  %ul
-    %li Projects
-    %li Home
-    %li About
+
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  -# %a.navbar-brand{:href => "#"} Navbar
+  %button.navbar-toggler{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarNav", "data-toggle" => "collapse", :type => "button"}
+    %span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    %ul.navbar-nav
+      %li.nav-item.active
+        %a.nav-link{:href => "index.html"}
+          Home
+          %span.sr-only (current)
+      %li.nav-item
+        %a.nav-link{:href => "#"} About
+      %li.nav-item
+        %a.nav-link{:href => "projects.html"} Projects
+      %li.nav-item
+        %a.nav-link{:href => "#"} Contact
