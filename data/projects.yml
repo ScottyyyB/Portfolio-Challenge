@@ -1,8 +1,12 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+- title: ATM Challenge
+  image: http://www.clker.com/cliparts/e/7/6/8/13763528842074094363dollar-bill.jpg
+  description: My first challenge at Craft Academy, a working ATM simulator, can be run in irb or pry.
 
-- name: FizzBuzz
-  description: My first Test driven ruby project
+- title: Library Challenge
+  description: My weekend challenge for week one at Craft Academy, has the many functionalities of a library, can be run in irb or pry.
 
-- name: ATM
-  description: My first challange at Craft Academy
+- title: BMI Challenge
+  description: My second challenge, gives users their BMI based on their height and weight, can be run in the console.
+
+- title: Cooper Challenge
+  description: My second weekend challenge, has near the similar aspects of a real life Cooper Test, can also be run in the console.

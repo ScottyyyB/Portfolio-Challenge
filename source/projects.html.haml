@@ -2,36 +2,16 @@
 %html
 %head
   %title Projects Page
+  %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous")
+  %link(href="stylesheets/main.css" text="text/css" rel="stylesheet")
 %body
   .header
     %h1 My Work
-  .main
-    .projects-content
-      .project-prop
-        %img(src="#")
-        %img(src="#")
-        %h3 The Task
-        %p I was assigned to
-        %h3 Description
-        %p A description
-      .project-prop
-        %img(src="#")
-        %img(src="#")
-        %h3 The Task
-        %p I was assigned to
-        %h3 Description
-        %p A description
-      .project-prop
-        %img(src="#")
-        %img(src="#")
-        %h3 The Task
-        %p I was assigned to
-        %h3 Description
-        %p A description
-      .project-prop
-        %img(src="#")
-        %img(src="#")
-        %h3 The Task
-        %p I was assigned to
-        %h3 Description
-        %p A description
+  .main-content
+    .projects
+      -# %img(src="http://www.clker.com/cliparts/e/7/6/8/13763528842074094363dollar-bill.jpg")
+      - data.projects.each do |project|
+        .project-prop
+          %img(src="#{project[:image]}")
+          %h4= project[:title]
+          %p= project[:description]

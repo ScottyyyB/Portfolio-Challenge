@@ -1,0 +1,19 @@
+!!! 5
+%html
+%head
+%title About Page
+%link(href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet")
+%link(href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet")
+%link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+%link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
+%link(href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet")
+%body
+  .header
+    %h1 About Me
+  .main-content
+    .projects
+      - data.hobbies.each do |hobby|
+        .project-prop
+          %img(src="#{hobby[:image]}")
+          %h4= hobby[:title]
+          %p= hobby[:description]

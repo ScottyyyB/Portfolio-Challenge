@@ -1,5 +1,14 @@
 !!! 5
 %html
 %head
-  %title Contacts Page
+%title Contacts Page
 %body
+  .header
+    %h1 Contacts
+  .main-content
+    .projects
+      - data.contacts.each do |contact|
+        .project-prop
+          %img(src="#{contact[:image]}")
+          %h4= contact[:title]
+          %p= contact[:description]

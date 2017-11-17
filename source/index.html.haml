@@ -3,7 +3,7 @@
   %head
   %title Scott Bartels
   %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous")
-  %link(href="style.css" text="text/css" rel="stylesheet")
+  %link(href="stylesheets/style.css" text="text/css" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
@@ -35,7 +35,7 @@
       .main-header
         %h2 Coding Arsenal
       .main-content
-        .main-prop.projects
+        .main-prop
           %h3 Projects
           #carouselExampleControls.carousel.slide{"data-ride" => "carousel"}
             .carousel-inner
@@ -46,12 +46,12 @@
                   %button(type="button") View Project
               .carousel-item
                 %h5 Library Challenge
-                %img.d-block.w-100{:alt => "Second slide", :src => "https://cdn.dribbble.com/users/154752/screenshots/1244719/book.gif"}/
+                %img.d-block.w-100{:alt => "Second slide", :src => "https://media.gq.com/photos/58f51ff764989314dc1bd034/master/pass/GQ-04-book-a-week.gif"}/
                 %a(href="https://github.com/ScottyyyB/library-challenge")
                   %button(type="button") View Project
               .carousel-item
                 %h5 BMI Challenge
-                %img.d-block.w-100{:alt => "Third slide", :src => "https://cdn.dribbble.com/users/409459/screenshots/1647461/calculatorrender.gif"}/
+                %img.d-block.w-100{:alt => "Third slide", :src => "https://i.pinimg.com/originals/5d/7e/b5/5d7eb57f1abddf4ea6480899a4975427.gif"}/
                 %a(href="https://github.com/ScottyyyB/BMI-Challenge")
                   %button(type="button") View Project
               .carousel-item
@@ -70,12 +70,16 @@
         .main-prop
           %h3 About
           .about-image
-            %img#img1(src="https://qph.ec.quoracdn.net/main-qimg-5ce6415cd47a8a5238fc98a3341a3f30")
-            %img#img2(src="https://media.giphy.com/media/6rqzYy39zOKoU/giphy.gif")
-            %img#img3(src="https://cdn.dribbble.com/users/31664/screenshots/1309778/football_player.gif")
-            %img#img4(src="https://media.giphy.com/media/yU0vrGBTI6TKg/source.gif")
-            %img#img5(src="#")
+            -# %img#img1(src="https://media.giphy.com/media/ievYtW6hFI2CQ/giphy.gif")
+            -# %img#img2(src="https://media.giphy.com/media/6rqzYy39zOKoU/giphy.gif")
+            -# %img#img3(src="https://cdn.dribbble.com/users/31664/screenshots/1309778/football_player.gif")
+            -# %img#img4(src="https://media.giphy.com/media/yU0vrGBTI6TKg/source.gif")
+            -# %img#img5(src="https://qph.ec.quoracdn.net/main-qimg-5ce6415cd47a8a5238fc98a3341a3f30")
 
     .footer
       .footer-content
+        -# .projects
+        -#   - data.projects.each do |project|
+        -#     %h3= project[:title]
+        -#     %p= project[:description]
         %h4 @17sb@cis.dk

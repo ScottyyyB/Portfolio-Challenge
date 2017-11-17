@@ -1,0 +1,9 @@
+.header { text-align: center; }
+
+.header { padding-top: 40px; }
+
+.projects { display: flex; }
+
+.project-prop { text-align: center; }
+
+.project-prop img { width: 15%; border: 2px solid lightblue; border-radius: 100%; }
