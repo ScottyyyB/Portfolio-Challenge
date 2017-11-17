@@ -1,12 +1,15 @@
 - title: ATM Challenge
-  image: http://www.clker.com/cliparts/e/7/6/8/13763528842074094363dollar-bill.jpg
+  image: http://www.sjsdigital.com/wp-content/uploads/2016/12/cash-clipart-279x300.jpg
   description: My first challenge at Craft Academy, a working ATM simulator, can be run in irb or pry.
 
 - title: Library Challenge
+  image: http://manhajka.com/wp-content/uploads/2015/02/books-icon.png
   description: My weekend challenge for week one at Craft Academy, has the many functionalities of a library, can be run in irb or pry.
 
 - title: BMI Challenge
+  image: https://fthmb.tqn.com/Ma5YipPGSokYl21bqstUIZmb_Wc=/1920x1080/filters:no_upscale():fill(87E3EF,1)/Illo_WeightLoss_3-57052f005f9b581408c1a9c8.png
   description: My second challenge, gives users their BMI based on their height and weight, can be run in the console.
 
 - title: Cooper Challenge
+  image: https://i.ytimg.com/vi/TPVmeY37a4c/maxresdefault.jpg
   description: My second weekend challenge, has near the similar aspects of a real life Cooper Test, can also be run in the console.

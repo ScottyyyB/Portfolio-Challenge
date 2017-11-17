@@ -20,7 +20,7 @@
 
 .header-text h1 {
   margin: auto;
-  font-family: "Oswald", sans-serif;
+  font-family: "Russo One", sans-serif;
   letter-spacing: 5px;
   font-size: 58px;
 }
@@ -29,7 +29,7 @@
   margin: auto;
   width: 68%;
   font-family: "Oswald", sans-serif;
-  font-size: 42px;
+  font-size: 44px;
   font-style: italic;
   letter-spacing: 1px;
   padding-bottom: 15px;
@@ -88,7 +88,7 @@
 }
 
 .main-header h2 {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 38px;
   letter-spacing: 2px;
 }
@@ -112,15 +112,24 @@
 }
 
 .main-prop h3 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
   margin: auto;
   width: 30%;
-  font-size: 35px;
+  font-size: 38px;
   margin-bottom: 30px;
   color: black;
 }
 
 .main-prop h3:hover {
   cursor: pointer;
+}
+
+.main-prop p {
+  letter-spacing: 1px;
+  line-height: 2;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #carouselExampleControls {
@@ -163,11 +172,12 @@
   cursor: pointer;
 }
 
+
 /*.carousel-item h6:hover {
   text-decoration: none;
   color: white;
 }*/
-#img1 {
+/*#img1 {
   border: 4px solid lightgray;
   height: 170px;
 }
@@ -201,4 +211,4 @@
   width: 100%;
   height: 150px;
   border: 4px solid lightgray;
-}
+}*/

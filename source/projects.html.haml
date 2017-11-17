@@ -12,6 +12,6 @@
       -# %img(src="http://www.clker.com/cliparts/e/7/6/8/13763528842074094363dollar-bill.jpg")
       - data.projects.each do |project|
         .project-prop
-          %img(src="#{project[:image]}")
+          %img.show-image(src="#{project[:image]}")
           %h4= project[:title]
           %p= project[:description]

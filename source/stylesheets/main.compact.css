@@ -10,4 +10,6 @@
 
 .project-prop h4 { font-family: 'Oswald', sans-serif; font-size: 28px; letter-spacing: 1px; padding-bottom: 15px; margin: 10px auto; border-bottom: 4px solid lightgray; width: 60%; }
 
-.project-prop img { border: 4px solid #12a6f6; border-radius: 100%; height: 40%; width: 50%; margin-bottom: 50px; }
+#show { border: 4px solid #12a6f6; border-radius: 100%; height: 40%; width: 130px; margin-bottom: 50px; }
+
+#hover { display: none; border: 4px solid #12a6f6; border-radius: 100%; height: 40%; width: 130px; margin-bottom: 50px; }

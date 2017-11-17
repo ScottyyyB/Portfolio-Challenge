@@ -14,6 +14,6 @@
     .projects
       - data.hobbies.each do |hobby|
         .project-prop
-          %img(src="#{hobby[:image]}")
+          %img.show-image(src="#{hobby[:image]}")
           %h4= hobby[:title]
           %p= hobby[:description]
