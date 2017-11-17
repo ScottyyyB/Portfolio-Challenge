@@ -1,0 +1,14 @@
+#navbarNav {
+  border-bottom: 4px solid #12a6f6;
+  padding-bottom: 5px;
+}
+
+.nav-item:hover {
+  font-size: 20px;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding-right: 5px;
+  letter-spacing: 0.8px;
+}

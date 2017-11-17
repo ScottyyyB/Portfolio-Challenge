@@ -1,21 +1,23 @@
 - title: Email
   image: https://cdn-images-1.medium.com/max/1200/1*Jj-Xzp0sIkUg23HOqzZF4w.png
   imagehover: https://cdn.dribbble.com/users/4874/screenshots/3074660/gmaildribbble.gif
-  contactlink: 
+  contactlink: mailto:17sb@cis.dk
   description: If you wish to contact me via email, then send an email to 17sb@cis.dk.
 
 - title: Linkedin
   image: https://www.shareicon.net/data/2017/03/06/880323_media_512x512.png
   imagehover: https://cdn.dribbble.com/users/147003/screenshots/1541997/linkedin_400_x_300_comp.gif
+  contactlink: https://www.linkedin.com/
   description: If you wish to contact me via Linkedin, my username is Scott Bartels.
 
 - title: Skype
   image: https://its.unl.edu/images/services/icons/Skype%20for%20Business_Icon.png
   imagehover: https://cdn.dribbble.com/users/117664/screenshots/2094885/skype_notification.gif
-  contactlink: https://www.skype.com/en/new/
+  contactlink: skype:fr0zenshadow?add
   description: If you wish to contact me via Skype, my username is fr0zenshadow.
 
 - title: Slack
   image: https://cdn-images-1.medium.com/max/1200/1*TiKyhAN2gx4PpbOsiBhYcw.png
   imagehover: https://mir-s3-cdn-cf.behance.net/project_modules/disp/f07dcc31762183.565f4d8e4129a.gif
+  contactlink: https://slack.com/
   description: If you wish to contact me via Slack, my username is ScottB21.

@@ -8,6 +8,8 @@
     <link href="./stylesheets/style.css" text="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="./stylesheets/main.css" text="text/css" rel="stylesheet">
+    <link href="./stylesheets/nav.css" text="text/css" rel="stylesheet"/>
+    <link href="./stylesheets/footer.css" text="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
@@ -28,10 +30,9 @@
 
   </style>
   <body>
-    <a> <img /> </a>
     <%= partial 'partials/nav'%>
     <%= yield %>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src='nav.js'></script>
+    <%= partial 'partials/footer'%>
   </body>
 </html>
