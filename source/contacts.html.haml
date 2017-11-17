@@ -15,4 +15,6 @@
           %img.hover-image(src="#{contact[:imagehover]}")
           %h4= contact[:title]
           %p= contact[:description]
+          %a(href="#{contact[:contactlink]}")
+            %button(type="button")= contact[:title]
   %script(src="javascripts/main.js")

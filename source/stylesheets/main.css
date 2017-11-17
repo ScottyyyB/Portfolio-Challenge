@@ -22,6 +22,7 @@
 .project-prop {
   text-align: center;
   margin: 50px 15px;
+  width: 70%;
 }
 
 .project-prop h4 {
@@ -29,10 +30,11 @@
   font-size: 32px;
   letter-spacing: 1px;
   padding-bottom: 25px;
-  margin: 10px auto;
+  margin: 20px auto;
   border-bottom: 4px solid lightgray;
   width: 60%;
 }
+
 
 .project-prop p {
   letter-spacing: 1px;
@@ -44,7 +46,7 @@
 .show-image {
   border: 4px solid #12a6f6;
   border-radius: 100%;
-  height: 40%;
+  height: 140px;
   width: 150px;
   margin-bottom: 50px;
 }
@@ -53,7 +55,20 @@
   display: none;
   border: 4px solid #12a6f6;
   border-radius: 100%;
-  height: 40%;
-  width: 130px;
+  height: 140px;
+  width: 150px;
   margin-bottom: 50px;
+}
+
+button {
+  /*border-radius: 15px;*/
+  letter-spacing: 1px;
+  margin: 15px auto;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #12a6f6;
+  color: white;
+  width: 100px;
+  padding: 5px;
+  border: 2.5px solid orange;
 }

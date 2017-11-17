@@ -1,6 +1,7 @@
 - title: Email
   image: https://cdn-images-1.medium.com/max/1200/1*Jj-Xzp0sIkUg23HOqzZF4w.png
   imagehover: https://cdn.dribbble.com/users/4874/screenshots/3074660/gmaildribbble.gif
+  contactlink: 
   description: If you wish to contact me via email, then send an email to 17sb@cis.dk.
 
 - title: Linkedin
@@ -11,6 +12,7 @@
 - title: Skype
   image: https://its.unl.edu/images/services/icons/Skype%20for%20Business_Icon.png
   imagehover: https://cdn.dribbble.com/users/117664/screenshots/2094885/skype_notification.gif
+  contactlink: https://www.skype.com/en/new/
   description: If you wish to contact me via Skype, my username is fr0zenshadow.
 
 - title: Slack
