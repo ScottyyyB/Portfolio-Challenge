@@ -9,7 +9,7 @@
   margin: auto;
   font-family: "Russo One", sans-serif;
   letter-spacing: 5px;
-  font-size: 58px;
+  font-size: 48px;
 }
 
 .header-text h2 {
@@ -24,16 +24,20 @@
 }
 
 .header-skills {
-  border: 2px solid orange;
+  text-align: center;
   width: 20%;
   float: left;
 }
 
-.skill-prop {
-  display: none;
-  float: left;
+.header-skills h3 {
+  padding-bottom: 15px;
+  font-size: 28px;
+  font-family: 'Oswald', sans-serif;
 }
 
+.skill-prop {
+  margin: 10px 0;
+}
 
 .header-image {
   border-bottom: 4px solid lightgray;

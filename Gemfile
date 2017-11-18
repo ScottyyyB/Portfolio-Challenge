@@ -7,3 +7,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'haml'
 gem 'middleman-deploy', '= 2.0.0.pre.alpha'
 gem 'rspec'
+gem 'middleman-livereload'

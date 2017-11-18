@@ -9,20 +9,17 @@
   %link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet")
-
-
   %body
     .header
       .header-text.text-center.mt-5
         %h1.letter-spacing-2 Scott's Portfolio
         %h2.mt-5 The Man Himself
-      .header-skills
-        %h4 Skills
-        .skill-prop
-          - data.cv.each do |skill|
-            %h5= skill[:title]
-            %p= skill[:understanding]
-
+      -# .header-skills
+      -#   %h3 Skills
+      -#   - data.cv.each do |skill|
+      -#     .skill-section
+      -#       %h5= skill[:title]
+      -#       %h6= skill[:understanding]
       .header-image.mt-5
         %img.img-thumbnail.rounded-circle.rounded.mx-auto.d-block(src="http://www.mommyq.com/wp-content/uploads/stewie-300x279.jpg")
       .header-contacts
@@ -77,10 +74,11 @@
         .main-prop
           %h3 About
           %p Brief description about myself, my name is Scott Bartels, I am 18 years old and I am from the Netherlands. My main hobbies are, coding, sports, gaming and animals. I am the youngest in a family of four. I have one sister, her name is Kristhy, she is Twenty one and studies Psychology. I have a father named Guido, Italian I know, however he is dutch, he is Fifty Six, and works for Amazon Web Services. I also have a mother, her name is Anja, she is Fifty years young, is a house mom and is the absolute best at it! As of writing this description, also props to Craft Acadeny, they are the absolute best!
-    -# .footer
-    -#   .footer-content
-    -#     -# .projects
-    -#     -#   - data.projects.each do |project|
-    -#     -#     %h3= project[:title]
-    -#     -#     %p= project[:description]
-    -#     -# %h4 @17sb@cis.dk
+    .project-content
+      %h3 Skills
+      .projects
+        - data.cv.each do |skill|
+          .project-item
+            %img.pro-img(src="#{skill[:image]}")
+            %h5= skill[:title]
+            %h6= skill[:understanding]
