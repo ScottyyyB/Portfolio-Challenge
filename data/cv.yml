@@ -1,12 +1,16 @@
 - title: Ruby
-  image: https://domainciq.com//sites/default/files/gbb-uploads/ruby-teixrx.png
-  understanding: Great
+  image: http://media.codepop.biz/2017/01/ruby-on-rails-bc9ab2af8d92eb4e7eb3211d548a09ad.png
+  understanding: "Understanding: Great"
+  rating: 80%
 - title: Javascript
-  image: https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png
-  understanding: Good
+  image: http://www.iconninja.com/files/648/718/576/install-npm-js-node-javascript-tools-development-icon.svg
+  understanding: "Understanding: Good"
+  rating: 70%
 - title: HTML
-  image: https://www.iconfinder.com/data/icons/communication-technology/500/code_brackets-512.png
-  understanding: Great
+  image: http://icons.iconarchive.com/icons/martz90/hex/512/html-5-icon.png
+  understanding: "Understanding: Great"
+  rating: 80%
 - title: CSS
-  image: https://redpixel.com/_uploads/CSS3_Badge_512.png?w=640
-  understanding: Excellent
+  image: http://icons.iconarchive.com/icons/martz90/hex/512/css-3-icon.png
+  understanding: "Understanding: Excellent"
+  rating: 90%

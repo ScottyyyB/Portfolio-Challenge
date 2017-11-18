@@ -48,6 +48,8 @@
 
 .header-image img {
   border: 3px solid #12a6f6;
+  width: 340px;
+  height: 330px;
 }
 
 .header-contacts {
@@ -102,6 +104,10 @@
   display: flex;
 }
 
+.progress-bar {
+  background-color: rgb(14, 198, 26);
+}
+
 .main-prop {
   height: 30%;
   width: 40%;
@@ -118,7 +124,7 @@
 }
 
 .main-prop h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Quantico', sans-serif;
   letter-spacing: 2px;
   margin: auto;
   width: 30%;

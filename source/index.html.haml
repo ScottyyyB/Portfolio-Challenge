@@ -4,6 +4,7 @@
   %title Scott Bartels
   %link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous")
   %link(href="stylesheets/style.css" text="text/css" rel="stylesheet")
+  -# %link(href="stylesheets/main.css" text="text/css" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet")
   %link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
@@ -14,14 +15,8 @@
       .header-text.text-center.mt-5
         %h1.letter-spacing-2 Scott's Portfolio
         %h2.mt-5 The Man Himself
-      -# .header-skills
-      -#   %h3 Skills
-      -#   - data.cv.each do |skill|
-      -#     .skill-section
-      -#       %h5= skill[:title]
-      -#       %h6= skill[:understanding]
       .header-image.mt-5
-        %img.img-thumbnail.rounded-circle.rounded.mx-auto.d-block(src="http://www.mommyq.com/wp-content/uploads/stewie-300x279.jpg")
+        %img.rounded-circle(src="https://i.imgur.com/RjaOZFX.png")
       .header-contacts
         .prop
           %a(href="https://github.com/ScottyyyB")
@@ -35,9 +30,21 @@
           %a(href="https://stackoverflow.com/")
             %img(src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png")
           %h4 Overflow
+
     .main.text-center
       .main-header
         %h2 Coding Arsenal
+      .project-content
+        %h3 Skills
+        .projects
+          - data.cv.each do |skill|
+            .project-item
+              %img.pro-img(src="#{skill[:image]}")
+              %h5= skill[:title]
+              %h6= skill[:understanding]
+              .progress
+                .progress-bar{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "70", :role => "progressbar", :style => "width: #{skill[:rating]}"}
+
       .main-content
         .main-prop
           %h3 Projects
@@ -73,12 +80,12 @@
 
         .main-prop
           %h3 About
-          %p Brief description about myself, my name is Scott Bartels, I am 18 years old and I am from the Netherlands. My main hobbies are, coding, sports, gaming and animals. I am the youngest in a family of four. I have one sister, her name is Kristhy, she is Twenty one and studies Psychology. I have a father named Guido, Italian I know, however he is dutch, he is Fifty Six, and works for Amazon Web Services. I also have a mother, her name is Anja, she is Fifty years young, is a house mom and is the absolute best at it! As of writing this description, also props to Craft Acadeny, they are the absolute best!
-    .project-content
-      %h3 Skills
-      .projects
-        - data.cv.each do |skill|
-          .project-item
-            %img.pro-img(src="#{skill[:image]}")
-            %h5= skill[:title]
-            %h6= skill[:understanding]
+          %p Brief description about myself, my name is Scott Bartels, I am 18 years old and I am from the Netherlands. My main interests are, coding, sports, gaming and animals. I am the youngest in a family of four. I have one sister, her name is Kristhy, she is Twenty one and studies Psychology. I have a father named Guido, Italian I know, however he is dutch, he is Fifty Six, and works for Amazon Web Services. I also have a mother, her name is Anja, she is Fifty years young, is a house mom and is the absolute best at it! As of writing this description, also props to Craft Acadeny, they are the absolute best!
+    -# .project-content
+    -#   %h3 Skills
+    -#   .projects
+    -#     - data.cv.each do |skill|
+    -#       .project-item
+    -#         %img.pro-img(src="#{skill[:image]}")
+    -#         %h5= skill[:title]
+    -#         %h6= skill[:understanding]
