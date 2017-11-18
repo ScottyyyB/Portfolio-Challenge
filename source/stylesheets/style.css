@@ -1,17 +1,4 @@
-/*#navbarNav {
-  border-bottom: 4px solid #12a6f6;
-  padding-bottom: 5px;
-}
 
-.nav-item:hover {
-  font-size: 20px;
-}
-
-.nav-item {
-  margin-right: 10px;
-  padding-right: 5px;
-  letter-spacing: 0.8px;
-}*/
 
 .header-text {
   margin: auto;
@@ -35,6 +22,18 @@
   padding-bottom: 15px;
   border-bottom: 4px solid lightgray;
 }
+
+.header-skills {
+  border: 2px solid orange;
+  width: 20%;
+  float: left;
+}
+
+.skill-prop {
+  display: none;
+  float: left;
+}
+
 
 .header-image {
   border-bottom: 4px solid lightgray;
@@ -158,57 +157,16 @@
 }
 
 .carousel-item button {
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   margin: 9px auto;
   font-family: 'Oswald', sans-serif;
   background-color: #12a6f6;
   color: white;
-  width: 25%;
-  padding: 5px;
+  width: 32%;
+  padding: 5px 0;
   border: 2.5px solid orange;
 }
 
 .carousel-item button:hover {
   cursor: pointer;
 }
-
-
-/*.carousel-item h6:hover {
-  text-decoration: none;
-  color: white;
-}*/
-/*#img1 {
-  border: 4px solid lightgray;
-  height: 170px;
-}
-
-#img2 {
-  position: relative;
-  top: 100px;
-  padding-top: 50px;
-  border: 4px solid lightgray;
-  height: 90px;
-}
-
-#img3 {
-  flex: wrap;
-  margin-right: 351px;
-  width: 100px;
-  height: 150px;
-  border: 4px solid lightgray;
-}
-
-#img4 {
-  flex: wrap;
-  margin-right: 251px;
-  width: 40%;
-  height: 150px;
-  border: 4px solid lightgray;
-}
-
-#img5 {
-  flex: wrap;
-  width: 100%;
-  height: 150px;
-  border: 4px solid lightgray;
-}*/
