@@ -9,14 +9,14 @@
   margin: auto;
   font-family: "Russo One", sans-serif;
   letter-spacing: 5px;
-  font-size: 48px;
+  font-size: 62px;
 }
 
 .header-text h2 {
   margin: auto;
   width: 58%;
   font-family: "Oswald", sans-serif;
-  font-size: 44px;
+  font-size: 50px;
   font-style: italic;
   letter-spacing: 1px;
   padding-bottom: 15px;
@@ -55,7 +55,7 @@
 .header-contacts {
   text-align: center;
   margin: 22px auto;
-  width: 28%;
+  width: 20%;
   display: flex;
   text-align: center;
 }
@@ -96,8 +96,8 @@
 
 .main-header h2 {
   font-family: 'Russo One', sans-serif;
-  font-size: 38px;
-  letter-spacing: 2px;
+  font-size: 44px;
+  letter-spacing: 3px;
 }
 
 .main-content {
@@ -128,7 +128,7 @@
   letter-spacing: 2px;
   margin: auto;
   width: 30%;
-  font-size: 38px;
+  font-size: 44px;
   margin-bottom: 30px;
   color: black;
 }

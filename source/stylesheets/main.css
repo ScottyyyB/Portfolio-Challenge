@@ -25,7 +25,7 @@
   margin: auto;
   padding-bottom: 20px;
   width: 30%;
-  font-size: 38px;
+  font-size: 44px;
   color: black;
 }
 
@@ -61,19 +61,19 @@
 
 .project-item h5 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 2px;
   padding-top: 10px;
   padding-bottom: 3px;
   margin: auto;
-  width: 70%;
+  width: 40%;
   border-bottom: 2px solid lightgray;
 }
 
 .project-item h6 {
   letter-spacing: 0.5px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -101,7 +101,7 @@
 .project-prop p {
   letter-spacing: 1px;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
