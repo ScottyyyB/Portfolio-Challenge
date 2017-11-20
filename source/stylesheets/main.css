@@ -66,7 +66,7 @@
   padding-top: 10px;
   padding-bottom: 3px;
   margin: auto;
-  width: 40%;
+  width: 50%;
   border-bottom: 2px solid lightgray;
 }
 
@@ -85,7 +85,11 @@
   padding-bottom: 10px;
   margin: 20px auto;
   border-bottom: 4px solid lightgray;
-  width: 75%;
+  width: 60%;
+}
+
+#project-head  {
+  width: 90%;
 }
 
 .progress {

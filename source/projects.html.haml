@@ -13,7 +13,7 @@
       - data.projects.each do |project|
         .project-prop
           %img.show-image(src="#{project[:image]}")
-          %h4= project[:title]
+          %h4#project-head= project[:title]
           %p= project[:description]
           %a(href="#{project[:projectlink]}")
             %button(type="button") Project
