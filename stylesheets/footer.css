@@ -1,0 +1,18 @@
+.footer {
+  border-top: 8px solid lightgray;
+  border-bottom: 8px solid lightgray;
+  background-color: #12a6f6;
+  position: relative;
+  top: 120px;
+}
+
+.footer-content {
+  color: #FFF;
+  text-align: left;
+  padding: 30px 10px;
+}
+
+.footer-content h4 {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
